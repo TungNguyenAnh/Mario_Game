@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dc6ede4b3c62e647a6cbd24231f78ae, type: 3}
+  m_Name: Overworld_MusicProfile
+  m_EditorClassIdentifier: 
+  _mainTheme: {fileID: 11400000, guid: f34d26fa15bbf194abc3f5dcadede137, type: 2}
+  _victoryTheme: {fileID: 11400000, guid: 9307adf8764ab0e4cb1056b87e54e042, type: 2}
+  _starman: {fileID: 11400000, guid: e9cf66bea13ab50459aad3de02a0e1f5, type: 2}
+  _starmanHurry: {fileID: 11400000, guid: 45f112289cd3c2140be556d12930fd01, type: 2}
+  _hurryFX: {fileID: 11400000, guid: d8e06f2104b7dd54fbeaa0308574094b, type: 2}
+  _hurryTheme:
+    _profile: {fileID: 11400000, guid: 55ae874151e101e4eb7984cd5002047f, type: 2}
+    _startTimeInit: 19.2
+    _startTimeContinued: 20.6

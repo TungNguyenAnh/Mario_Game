@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d391f6475360f5489378ac68fe8f0b3, type: 3}
+  m_Name: PooledProfileGroup_Underworld
+  m_EditorClassIdentifier: 
+  _pooledObjectProfiles:
+  - {fileID: 11400000, guid: 8d32f14f4eb6a1949949e6a721d6d603, type: 2}
+  - {fileID: 11400000, guid: 58716dad9e2eb314496878c43d610007, type: 2}
+  - {fileID: 11400000, guid: 0d34e0f1cba78e248b0adc1832e227c2, type: 2}
+  - {fileID: 11400000, guid: d7cb2afe0067f1a45b85ee1b5c3b7dcb, type: 2}
+  - {fileID: 11400000, guid: 6289ffef723125249a97a8acdbf79f51, type: 2}
+  - {fileID: 11400000, guid: 64046f60a8652fd46a45ca7912ee3d5f, type: 2}
+  - {fileID: 11400000, guid: 050065f366f6e5148b8d30f6d5f43c08, type: 2}
+  - {fileID: 11400000, guid: 19eec2683d3536349932e1f2cc9e7c12, type: 2}
+  _pooledSoundProfiles:
+  - {fileID: 11400000, guid: f4bb3a60fe064084eb3684746625245d, type: 2}
+  - {fileID: 11400000, guid: 6d2356ab4c2f755498c2bdad1c42881e, type: 2}
+  _pooledUIProfiles: []

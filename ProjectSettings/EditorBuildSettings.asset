@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Mario/Init/Scenes/Init.unity
+    guid: 4241874f842a1604794bbba843b8858c
+  - enabled: 1
+    path: Assets/Mario/Main/Scenes/Main.unity
+    guid: cf9d1cbb132bf2c42bc6a206c535200d
+  - enabled: 0
+    path: Assets/Mario/StandBy/Scenes/StandBy.unity
+    guid: 080731c60857e7744bee76e42370570a
+  - enabled: 1
+    path: Assets/Mario/Game/Scenes/Game.unity
+    guid: eeeb5f73adcc66d41a2c9e7a69b68165
+  - enabled: 1
+    path: Assets/Mario/TimeUp/Scenes/TimeUp.unity
+    guid: 3844e1541079e5b42a2ad1dc5603cb4b
+  - enabled: 1
+    path: Assets/Mario/GameOver/Scenes/GameOver.unity
+    guid: ea0a468f1b6045b4aa0b84c49a89b91f
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 10cd46608b1e79f448da15219dace0aa, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}

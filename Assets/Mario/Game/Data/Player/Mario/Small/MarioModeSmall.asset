@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551ef53d1e6b8624b8fb91a6906b1a14, type: 3}
+  m_Name: MarioModeSmall
+  m_EditorClassIdentifier: 
+  _default:
+    _animator: {fileID: 22100000, guid: 14ef6815fc4e0cc42ae22a02e97de38e, type: 2}
+    _material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  _buff:
+    _material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    _freezeTime: 0.5
+    _soundFX: {fileID: 11400000, guid: 077f820945a7f1d4e937e876fbb04af1, type: 2}
+  _walk:
+    _acceleration: 28
+    _maxSpeed: 5.8
+    _deacceleration: 20
+  _run:
+    _acceleration: 30
+    _maxSpeed: 9.5
+    _deacceleration: 12
+  _fall:
+    _normalSpeed: 60
+    _deathFallSpeed: 35
+    _maxFallSpeed: 16
+  _jump:
+    _walkHeight:
+      Min: 1.2
+      Max: 4.2
+    _runHeight:
+      Min: 1.2
+      Max: 5
+    _deathHeight: 3.5
+    _bounce: 10.5
+    _soundFX: {fileID: 11400000, guid: b99e5550ffec5ba46bf00b0dd582e373, type: 2}
+  _normalRaycastRange:
+    _top: {fileID: 11400000, guid: fac906f1ae367df49b9cc8d11679bdb5, type: 2}
+    _bottom: {fileID: 11400000, guid: 9646c51d2a39e0f43bd179d946201ec7, type: 2}
+    _left: {fileID: 11400000, guid: 96e3e36c5550ae94186ddb3e8a6e1c44, type: 2}
+    _right: {fileID: 11400000, guid: 28d79717fe341e1409dd59a625cc6093, type: 2}
+  _duckingRaycastRange:
+    _top: {fileID: 0}
+    _bottom: {fileID: 0}
+    _left: {fileID: 0}
+    _right: {fileID: 0}
+  _collider:
+    _offSet: {x: 0.5, y: 0.55}
+    _size: {x: 0.8, y: 0.8}

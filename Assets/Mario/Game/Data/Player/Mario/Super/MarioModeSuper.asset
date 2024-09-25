@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551ef53d1e6b8624b8fb91a6906b1a14, type: 3}
+  m_Name: MarioModeSuper
+  m_EditorClassIdentifier: 
+  _default:
+    _animator: {fileID: 22100000, guid: 1f1b0b8bfa58216439ab5fe14a13b15f, type: 2}
+    _material: {fileID: 2100000, guid: 097a441a626044546867e316c6d3ddde, type: 2}
+  _buff:
+    _material: {fileID: 0}
+    _freezeTime: 0
+    _soundFX: {fileID: 11400000, guid: 077f820945a7f1d4e937e876fbb04af1, type: 2}
+  _nerf:
+    _material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+    _freezeTime: 0.8
+    _soundFX: {fileID: 11400000, guid: 74bda110af327014198ed99405fd392a, type: 2}
+  _walk:
+    _acceleration: 28
+    _maxSpeed: 5.8
+    _deacceleration: 20
+  _run:
+    _acceleration: 30
+    _maxSpeed: 9.5
+    _deacceleration: 12
+  _fall:
+    _normalSpeed: 60
+    _deathFallSpeed: 35
+    _maxFallSpeed: 16
+  _jump:
+    _walkHeight:
+      Min: 1.2
+      Max: 4.2
+    _runHeight:
+      Min: 1.2
+      Max: 5
+    _deathHeight: 3.5
+    _bounce: 10.5
+    _soundFX: {fileID: 11400000, guid: cea7a45644dec574c9001bd8dd9e8959, type: 2}
+  _normalRaycastRange:
+    _top: {fileID: 11400000, guid: 200ca7a65f986c441a015c73438ed238, type: 2}
+    _bottom: {fileID: 11400000, guid: e37f405da0173ab4bb5ace2710efab88, type: 2}
+    _left: {fileID: 11400000, guid: d106cca8b4ae9c14db219652487d0038, type: 2}
+    _right: {fileID: 11400000, guid: 070a5713e761d35468d31e69127cc101, type: 2}
+  _duckingRaycastRange:
+    _top: {fileID: 11400000, guid: 8d2a630eb62b4854b8a80392f3c65553, type: 2}
+    _bottom: {fileID: 11400000, guid: bef7d345bf044f14394c33a776569fa1, type: 2}
+    _left: {fileID: 11400000, guid: a9ef4b14f1beb9e4a98b34fd2365e3c1, type: 2}
+    _right: {fileID: 11400000, guid: 48f5e057a0d448a46a1e948baa4a1b6b, type: 2}
+  _collider:
+    _offSet: {x: 0.5, y: 0.8}
+    _size: {x: 0.8, y: 1.2}

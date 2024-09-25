@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Item
+  - ScreenLimit
+  - Interactable
+  - NPC
+  - Player
+  - Elevator
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Item
+    uniqueID: 1559953691
+    locked: 0
+  - name: Blocks
+    uniqueID: 3103266777
+    locked: 0
+  - name: NPC
+    uniqueID: 911977699
+    locked: 0
+  - name: Fireball
+    uniqueID: 3338298191
+    locked: 0
+  - name: Player
+    uniqueID: 1418808743
+    locked: 0
+  - name: Overlayer
+    uniqueID: 817178179
+    locked: 0
+  - name: Points
+    uniqueID: 3582960459
+    locked: 0
+  - name: Dead
+    uniqueID: 32830929
+    locked: 0
+  - name: Item2
+    uniqueID: 2386515371
+    locked: 0
